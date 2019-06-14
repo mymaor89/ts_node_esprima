@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "outDir": "../dist",
+    "sourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "lib": ["esnext"],
+    "setupFiles": ["core-js"]
+  }
+}
+
