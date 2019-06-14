@@ -39,11 +39,13 @@ export class Class extends Rules {
 
             }
             
+            // @ts-ignore
             identifiers.push(Identifier.fromClass((this.node as ClassDeclaration).id.name))
             return identifiers
         }
         else {
             
+            // @ts-ignore
             return Identifier.fromClass((this.node as ClassDeclaration).id.name)
         }
     }

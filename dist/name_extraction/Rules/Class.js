@@ -34,10 +34,12 @@ class Class extends Rules_1.Rules {
                     }
                 }
             }
+            // @ts-ignore
             identifiers.push(Identifier_1.Identifier.fromClass(this.node.id.name));
             return identifiers;
         }
         else {
+            // @ts-ignore
             return Identifier_1.Identifier.fromClass(this.node.id.name);
         }
     }
